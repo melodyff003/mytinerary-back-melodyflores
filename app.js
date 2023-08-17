@@ -1,13 +1,14 @@
 import express from 'express';
 import morgan from 'morgan';
 import cors from 'cors'; //middleware
+import 'dotenv/config.js'; 
 
 import indexRouter from './router/index.router.js';
 
 //paquete corse para hacer peticiones desde el front
 
 const app = express(); //para utilizar express
-const port = 3000;
+const port = process.env.port;
 
 app.use(express.json());
 app.use(express.urlencoded({extended: false})); //leer la carga util q tiene una solicitud y codificarla para q sea del formato json
