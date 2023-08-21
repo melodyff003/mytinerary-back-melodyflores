@@ -1,0 +1,94 @@
+{  
+  "cities": [
+  {
+    "city": "Berlin",
+    "image": "https://viajes.nationalgeographic.com.es/medio/2017/02/09/shutterstock-302415089_6b607cdb.jpg",
+    "description": "Berlin is the capital and largest city of Germany, known for its rich history and vibrant arts scene.",
+    "province": "Berlin"
+  },
+  {
+    "city": "Munich",
+    "image": "https://a.cdn-hotels.com/gdcs/production118/d675/aebb75b6-c77e-4af9-836d-c868747ad0d8.jpg",
+    "description": "Munich is the capital of Bavaria and is famous for its beautiful architecture, beer gardens, and cultural attractions.",
+    "province": "Bavaria"
+  },
+  {
+    "city": "Hamburg",
+    "image": "https://a.cdn-hotels.com/gdcs/production57/d830/70f985c4-c6b3-4700-a11f-e7289de58ae5.jpg",
+    "description": "Hamburg is a major port city located on the Elbe River and is known for its maritime history and lively nightlife.",
+    "province": "Hamburg"
+  },
+  {
+    "city": "Cologne",
+    "image": "https://abrokenbackpack.com/wp-content/uploads/2023/03/Cologne-Germany.webp",
+    "description": "Cologne is a city on the Rhine River and is known for its stunning cathedral and vibrant carnival celebrations.",
+    "province": "North Rhine-Westphalia"
+  },
+  {
+    "city": "Frankfurt",
+    "image": "https://www.transfeero.com/wp-content/uploads/2020/06/frankfurt.jpg",
+    "description": "Frankfurt is a major financial hub and is known for its modern skyline and historic old town.",
+    "province": "Hesse"
+  },
+  {
+    "city": "Stuttgart",
+    "image": "https://doktorungezirehberi.com/wp-content/uploads/2015/04/tubingen_ph19-00.jpg",
+    "description": "Stuttgart is the capital of Baden-Württemberg and is known for its automotive industry and cultural institutions.",
+    "province": "Baden-Württemberg"
+  },
+  {
+    "city": "Dusseldorf",
+    "image": "https://images.ctfassets.net/qr8kennq1pom/2K9b0rH2swq2sFuUVwZTm6/581f1fa6285888b9710e82c27b81c025/Du__sseldorf_river_view.png?fm=jpg&fl=progressive&q=70",
+    "description": "Dusseldorf is known for its fashion industry, modern architecture, and lively art scene.",
+    "province": "North Rhine-Westphalia"
+  },
+  {
+    "city": "Leipzig",
+    "image": "https://a.cdn-hotels.com/gdcs/production78/d131/00f0fd64-87e0-4043-8946-23763d28d00f.jpg",
+    "description": "Leipzig is known for its music and cultural heritage, and it played a significant role in the fall of the Berlin Wall.",
+    "province": "Saxony"
+  },
+  {
+    "city": "Dresden",
+    "image": "https://content.r9cdn.net/rimg/dimg/ab/27/01df0ad9-city-18925-165428b654b.jpg?width=1366&height=768&xhint=1589&yhint=850&crop=true",
+    "description": "Dresden is the capital of Saxony and is famous for its stunning architecture, including the Frauenkirche.",
+    "province": "Saxony"
+  },
+  {
+    "city": "Nuremberg",
+    "image": "https://i0.wp.com/www.eldiscretoencantodeviajar.com/wp-content/uploads/2022/05/DSC08380-scaled.jpg?ssl=1",
+    "description": "Nuremberg is known for its medieval architecture, the Nuremberg Trials, and its famous Christmas market.",
+    "province": "Bavaria"
+  },
+  {
+    "city": "Hannover",
+    "image": "https://a.cdn-hotels.com/gdcs/production132/d422/2a7f0800-68ce-11e8-8a0f-0242ac11000c.jpg",
+    "description": "Hannover is the capital of Lower Saxony and is known for its Royal Gardens of Herrenhausen and trade fairs.",
+    "province": "Lower Saxony"
+  },
+  {
+    "city": "Bremen",
+    "image": "https://a.cdn-hotels.com/gdcs/production177/d1717/a1257d50-7f75-11e8-a0da-0242ac11004d.jpg",
+    "description": "Bremen is a historic city with a maritime heritage, known for the Bremen Roland statue and the Town Musicians.",
+    "province": "Bremen"
+  },
+  {
+    "city": "Dortmund",
+    "image": "https://www.expedia.it/stories/wp-content/uploads/2021/07/190119-share-image.jpg",
+    "description": "Dortmund is known for its football (soccer) culture, industrial history, and diverse cultural scene.",
+    "province": "North Rhine-Westphalia"
+  },
+  {
+    "city": "Essen",
+    "image": "https://www.germanydestinattions.com/wp-content/uploads/2019/03/essen-germany.jpg",
+    "description": "Essen is a former industrial city that has transformed into a cultural hub, with a focus on arts and design.",
+    "province": "North Rhine-Westphalia"
+  },
+  {
+    "city": "Darmstadt",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Luisenplatz%2C_Darmstadt.jpg/1200px-Luisenplatz%2C_Darmstadt.jpg",
+    "description": "Darmstadt is known for its scientific and artistic heritage, including the Darmstadt Artists' Colony.",
+    "province": "Hesse"
+  }
+  ]
+}
