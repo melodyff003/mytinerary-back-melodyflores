@@ -55,12 +55,6 @@
     "province": "Saxony"
   },
   {
-    "city": "Nuremberg",
-    "image": "https://i0.wp.com/www.eldiscretoencantodeviajar.com/wp-content/uploads/2022/05/DSC08380-scaled.jpg?ssl=1",
-    "description": "Nuremberg is known for its medieval architecture, the Nuremberg Trials, and its famous Christmas market.",
-    "province": "Bavaria"
-  },
-  {
     "city": "Hannover",
     "image": "https://a.cdn-hotels.com/gdcs/production132/d422/2a7f0800-68ce-11e8-8a0f-0242ac11000c.jpg",
     "description": "Hannover is the capital of Lower Saxony and is known for its Royal Gardens of Herrenhausen and trade fairs.",
@@ -89,6 +83,12 @@
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Luisenplatz%2C_Darmstadt.jpg/1200px-Luisenplatz%2C_Darmstadt.jpg",
     "description": "Darmstadt is known for its scientific and artistic heritage, including the Darmstadt Artists' Colony.",
     "province": "Hesse"
-  }
+  },
+  {
+      "city": "Cottbus",
+      "image": "https://cottbus-stadtentwicklung.de/wp-content/uploads/sites/141/2022/11/2022-01-13_Luftbild-Innenstadt.jpg",
+      "description": "Cottbus is a city located in Brandenburg, known for its historic architecture and the Branitz Park and Castle.",
+      "province": "Brandenburg"
+    }
   ]
 }
