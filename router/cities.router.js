@@ -3,13 +3,18 @@ import citiesController from '../controllers/cities.controllers.js';
 
 const router = express.Router();
 
-const {getCities, createCities, getCityById} = citiesController;
+const {getCities, createCities, getCityById,  updateCity, deleteCity} = citiesController;
 
 router.get('/',getCities);
 
 router.get('/:id', getCityById)
 
 router.post('/',createCities);
+
+router.put('/:id', updateCity)
+
+router.delete('/:id', deleteCity)
+
  //para todos los tipos de peticiones
 // router.get(); solo responde a peticiones get 
 
