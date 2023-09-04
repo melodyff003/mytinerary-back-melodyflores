@@ -72,6 +72,7 @@ const controller = {
         city.itineraries = [...city.itineraries, itineraryPicked]
         await city.save()
     
+        
         console.log(city);
         res.json({
             success: true,
