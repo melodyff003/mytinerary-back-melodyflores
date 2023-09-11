@@ -37,13 +37,14 @@ const controller = {
             success: true,
         })
     },
+
     getItineraryById: async (req, res, next) => {
         try {
-            const { name } = req.params
-            const itinerary = await Itinerary.findOne({
-                name: { $regex: new RegExp("^" + name.toLowerCase(), "i") }
+            const  { city } = req.params
+            console.log(req.params);
+            const itinerary = await Itinerary.findOne({ //undefined
+                city: { $regex: new RegExp("^" + city.toLowerCase(), "i") }
             })
-
             console.log(itinerary);
             res.json({
                 data: itinerary,
