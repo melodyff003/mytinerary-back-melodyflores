@@ -14,12 +14,12 @@ const controller = {
 
             if(city.length > 0){
                 return res.status(200).json({
-                    succes: true,
+                    success: true,
                     city
                 })
             }
             return res.status(404).json({
-                succes: false,
+                success: false,
                 message: "Not found city"
             })
 
@@ -38,12 +38,12 @@ const controller = {
             
             if(oneCity){     
                 return res.status(200).json({
-                    succes: true,
+                    success: true,
                     city: oneCity
                 })
             }
             return res.status(404).json({
-            succes: false,
+            success: false,
             message: "id not found"
             })
         } catch(error){
@@ -78,14 +78,14 @@ const controller = {
             await Cities.updateOne({_id: req.params.id}, req.body)
 
             return res.status(200).json({
-                succes:true, 
+                success:true, 
                 message: 'City updated succcessfully'
             })
 
         } catch(error){
             console.log(error);
             return res.status(500).json({
-                succes: fail, 
+                success: fail, 
                 message: 'Error while updating city'
             })
         }
@@ -95,14 +95,14 @@ const controller = {
             await Cities.deleteOne({_id: req.params.id})
 
             return res.status(200).json({
-                succes: true,
+                success: true,
                 message: 'City deleted successfully'
             })
 
         } catch(error){
             console.log(error);
             return res.status(500).json({
-                succes: fail, 
+                success: fail, 
                 message: 'Error while deleting city'
             })
         }

@@ -37,23 +37,31 @@ const controller = {
             success: true,
         })
     },
-
-    getItineraryById: async (req, res, next) => {
+    getItineraryById: async (req, res) => {
         try {
-            const  { city } = req.params
-            console.log(req.params);
-            const itinerary = await Itinerary.findOne({ //undefined
-                city: { $regex: new RegExp("^" + city.toLowerCase(), "i") }
-            })
-            console.log(itinerary);
-            res.json({
-                data: itinerary,
-                success: true,
-            })
-        } catch (error) {
-            console.log(error);
-        }
+            // console.log(req.params)
+            const oneItinerary = await Itinerary.findById(req.params.id)
+            // .populate('company', 'contact_info name')
+            // .populate('user');
 
+            if (oneItinerary) {
+                return res.status(200).json({
+                    success: true,
+                    event: oneItinerary
+                })
+            }
+            return res.status(404).json({
+                success: false,
+                message: 'No se pudo encontrar el evento'
+            })
+
+        } catch (error) {
+            console.log(error)
+            return res.status(500).json({
+                success: false,
+                message: 'Error al obtener el evento'
+            })
+        }
     },
     addItinerary: async (req, res) => {
         const city = await Itinerary.findById(req.params.id) //no guarda el id de la ciudad por lo q' luego no puede leer .itineraries

@@ -1,14 +1,12 @@
 import express from 'express'
+import userController from '../controllers/user.controllers.js';
+import { validator } from '../middlewares/validator.js';
+import { createUserSchema } from '../schema/user.schema.js';
 
 const router = express.Router();
 
-router.get('/', (req, res) => {
-    res.json({
-      user: 'Melody Flores'
-    })
-  });
-
- //para todos los tipos de peticiones
-// router.get(); solo responde a peticiones get 
+router.get('/', userController.getUsers)
+// middleware dinámico 
+router.post('/', validator(createUserSchema), userController.createUser)
 
 export default router;

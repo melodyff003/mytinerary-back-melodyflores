@@ -7,7 +7,8 @@ let schema = new Schema({ //propiedades
     image: {type: String, require:true},
     description: { type: String, require:true},
     province: { type: String, require:true},
-    itineraries: [{type: Types.ObjectId, ref: 'itineraries'}]
+    itineraries: [{type: Types.ObjectId, ref: 'itineraries'}],
+    user: { type: Types.ObjectId, ref: 'users'}
 }, {    
     timestamps: true //fechas
 })
