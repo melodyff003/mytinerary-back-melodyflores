@@ -2,6 +2,7 @@ import express from 'express';
 import citiesController from '../controllers/cities.controllers.js';
 // import { logPostCity }from '../middlewares/example.js';
 import { isAdmin } from '../middlewares/isAdmin.middleware.js';
+import passport from '../middlewares/passport.js';
 
 const router = express.Router();
 
@@ -11,7 +12,7 @@ router.get('/',getCities);
 
 router.get('/:id', getCityById)
 
-router.post('/',createCities);
+router.post('/', passport.authenticate('jwt', {session: false}) , createCities);
 
 router.put('/:id', updateCity)
 
